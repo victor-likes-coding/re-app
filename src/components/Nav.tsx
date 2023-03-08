@@ -2,8 +2,9 @@ import React from "react";
 
 export default function Nav() {
     return (
-        <nav>
-            <h3>Logo</h3>
+            <div className="navbar__links">
+                <div className="navbar__auth primary-button">Sign In</div>
+            </div>
         </nav>
     );
 }
