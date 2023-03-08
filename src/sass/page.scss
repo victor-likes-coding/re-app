@@ -1,15 +1,20 @@
 .section {
-    height: calc(100vh - 6.695rem);
-    padding: 5rem 1.6rem 0;
+    min-height: calc(100vh - 6.6795rem);
+    padding: 6rem 1.6rem 0;
+    overflow-y: scroll;
+
+    &.small {
+        padding-top: 2rem;
+    }
 }
 
 .page {
+    padding-top: 6.6795rem;
     &__title {
         font-size: 4.8rem;
         font-weight: 700;
         text-align: center;
         margin-bottom: 4rem;
-        margin-top: 6.695rem;
     }
 
     &__para {
@@ -28,5 +33,41 @@
             padding-top: 1.5rem;
             padding-bottom: 1.5rem;
         }
+    }
+
+    &__subtitle {
+        font-size: 3.2rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    &__services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__service {
+        width: 16rem;
+        height: 16rem;
+        padding-bottom: 1.5rem;
+
+        &-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            text-align: center;
+            position: relative;
+            top: -2.5rem;
+            color: $light;
+        }
+
+        &:nth-of-type(3) &-title {
+            top: 1rem;
+        }
+    }
+
+    &__svg {
+        width: 100%;
+        height: 100%;
     }
 }
