@@ -2,6 +2,11 @@
     padding: 1.2rem 1.8rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: $black;
+    border-bottom: 1px solid $blue;
     &__logo {
         width: 4rem;
     }
