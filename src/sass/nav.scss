@@ -5,4 +5,10 @@
     &__logo {
         width: 4rem;
     }
+
+    &__links {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
 }
