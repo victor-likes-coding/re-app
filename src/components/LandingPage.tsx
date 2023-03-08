@@ -1,5 +1,15 @@
 import React from "react";
 import Section from "./Section";
+import { ReactComponent as BuySVG } from "../assets/buy-house.svg";
+import { ReactComponent as FindSVG } from "../assets/find-home.svg";
+import { ReactComponent as SellSVG } from "../assets/sell-house.svg";
+
+const Service = ({ children, title }: { children?: React.ReactNode; title: string }) => (
+    <div className="page__service">
+        {children}
+        <h3 className="page__service-title">{title}</h3>
+    </div>
+);
 
 export default function LandingPage() {
     return (
@@ -12,12 +22,21 @@ export default function LandingPage() {
                 </div>
             </Section>
 
-            <Section>
-                <h2 className="page__subtitle">Why Rentify?</h2>
-                <p className="page__subpara">
-                    Rentify is the best way to find a rental property. We have the largest selection of rental properties in the country, and we make it easy to
-                    find your next home.
-                </p>
+            <Section className="small">
+                <h2 className="page__subtitle">Services</h2>
+                <section className="page__services">
+                    <Service title="Find Homes">
+                        <FindSVG className="page__svg" />
+                    </Service>
+
+                    <Service title="Sell Homes">
+                        <SellSVG className="page__svg" />
+                    </Service>
+
+                    <Service title="Buy Homes">
+                        <BuySVG className="page__svg" />
+                    </Service>
+                </section>
             </Section>
         </div>
     );
