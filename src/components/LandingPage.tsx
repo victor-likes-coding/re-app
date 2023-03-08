@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Page() {
+export default function LandingPage() {
     return (
         <div className="page">
             <h1 className="page__title">Invest smarter with our user-centric suite of products.</h1>

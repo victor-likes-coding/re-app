@@ -1,4 +1,5 @@
 import Nav from "./Nav";
-import Page from "./Page";
+import LandingPage from "./LandingPage";
+import Login from "./Login";
 
-export { Nav, Page };
+export { Nav, LandingPage, Login };
