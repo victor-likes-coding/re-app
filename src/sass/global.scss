@@ -7,7 +7,7 @@
 html {
     font-size: 62.5%;
     background-color: $black;
-    color: $light;
+    color: $gray;
 }
 
 .primary-button {
@@ -17,6 +17,7 @@ html {
     border-radius: 0.8rem;
     display: grid;
     place-items: center;
+    color: $light;
 }
 
 a:-webkit-any-link {
