@@ -13,8 +13,8 @@ export default function LandingPage() {
             </Section>
 
             <Section>
-                <h2 className="page__title">Why Rentify?</h2>
-                <p className="page__para">
+                <h2 className="page__subtitle">Why Rentify?</h2>
+                <p className="page__subpara">
                     Rentify is the best way to find a rental property. We have the largest selection of rental properties in the country, and we make it easy to
                     find your next home.
                 </p>
