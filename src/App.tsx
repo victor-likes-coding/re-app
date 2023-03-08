@@ -1,11 +1,11 @@
 import React from "react";
-import logo from "./logo.svg";
-import Nav from "./components/Nav";
+import { Nav, Page } from "./components/";
 
 function App() {
     return (
         <div className="App">
             <Nav />
+            <Page />
         </div>
     );
 }
