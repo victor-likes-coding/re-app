@@ -1,5 +1,7 @@
 .navbar {
     padding: 1.2rem 1.8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     &__logo {
         width: 4rem;
     }
