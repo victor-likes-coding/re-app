@@ -1,11 +1,12 @@
 import React from "react";
-import { Nav, Page } from "./components/";
+import { Nav, LandingPage } from "./components/";
 
 function App() {
     return (
         <div className="App">
             <Nav />
-            <Page />
+            {/* they see page when they're not logged in */}
+            <LandingPage />
         </div>
     );
 }
