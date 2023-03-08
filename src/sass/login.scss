@@ -1,0 +1,31 @@
+@import "colors";
+
+.login {
+    display: grid;
+    place-items: center;
+    height: calc(100vh - 6.695rem);
+    &__form {
+        background: $blue;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        width: calc(100vw - 3.6rem);
+        margin: 0 auto;
+    }
+
+    &__title {
+        font-size: 3.2rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    &__input {
+        margin-bottom: 1.5rem;
+        font-size: 1.8rem;
+        outline: none;
+        border-radius: 0px;
+        border-width: 0;
+        background-color: $dark;
+        color: $yellow;
+    }
+}
